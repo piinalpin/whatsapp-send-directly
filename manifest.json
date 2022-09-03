@@ -1,7 +1,7 @@
 {
     "name": "Whatsapp Send Directly",
     "short_name": "Send Directly",
-    "start_url": "/",
+    "start_url": "https://piinalpin.com/whatsapp-send-directly",
     "display": "standalone",
     "background_color": "#151515",
     "theme_color": "#151515",
