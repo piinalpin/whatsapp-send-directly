@@ -78,19 +78,6 @@
       return check;
     };
 
-    var userAgent = window.navigator.userAgent;
-
-    if (!userAgent.match(/iPad/i) && !userAgent.match(/iPhone/i)) {
-      window.onload = () => {
-        'use strict';
-        console.log(navigator);
-        if ('serviceWorker' in navigator) {
-          navigator.serviceWorker
-                  .register('./serviceWorker.js');
-        }
-      }
-    }
-
     const mobileCheck = window.mobileCheck();
 
     function sendWhatsapp() {
